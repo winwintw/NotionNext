@@ -39,7 +39,7 @@ const BlogPostCard = ({ post, className }) => {
           <div className='stack-comment flex-auto'>
             <p className='title font-bold'>{post.title}</p>
             <p className='description font-normal'>
-              {post.summary ? post.summary : '暂无简介'}
+              {post.summary ? post.summary : '暫無簡介'}
             </p>
           </div>
         </div>
