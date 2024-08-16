@@ -135,10 +135,12 @@ const LayoutBase = props => {
                   links?.map((link, index) => (
                     <MenuItem key={index} link={link} />
                   ))}
+
+{/* 書籤功能START */}
 {
   function rudr_favorite(a) {
-	pageTitle=document.title;
-	pageURL=document.location;
+	pageTitle="桂圓生存手冊 | cmuhdnr.vercel.app";
+	pageURL="https://cmuhdnr.vercel.app/";
 	try {
 		// Internet Explorer solution
 		eval("window.external.AddFa-vorite(pageURL, pageTitle)".replace(/-/g,''));
@@ -165,8 +167,10 @@ const LayoutBase = props => {
 }
 }
                 { 
-                  <div class="nav-menu dark:text-neutral-400 text-gray-500 hover:text-black dark:hover:text-white text-sm text-gray w-full items-center duration-300 pt-2 font-light select-none flex justify-between cursor-pointer"><a class="dark:text-neutral-400 dark:hover:text-white font-bold w-full display-block" href="https://cmuhdnr.vercel.app/" title="桂圓生存手冊 cmuhdnr.vercel.app" rel="sidebar"><i class="text-base fa-solid fa-star mr-1"></i>加入書籤</a></div>
+                  <div class="nav-menu dark:text-neutral-400 text-gray-500 hover:text-black dark:hover:text-white text-sm text-gray w-full items-center duration-300 pt-2 font-light select-none flex justify-between cursor-pointer"><a class="dark:text-neutral-400 dark:hover:text-white font-bold w-full display-block" href="javascript:void(0)" onClick="return rudr_favorite(this);"><i class="text-base fa-solid fa-star mr-1"></i>加入書籤</a></div>
                     }
+ {/* 書籤功能END */}
+
               </div>                
             </div>
 
