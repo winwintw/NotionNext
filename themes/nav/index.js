@@ -135,7 +135,6 @@ const LayoutBase = props => {
                   links?.map((link, index) => (
                     <MenuItem key={index} link={link} />
                   ))}
-
                 <div class="nav-menu dark:text-neutral-400 text-gray-500 hover:text-black dark:hover:text-white text-sm text-gray w-full items-center duration-300 pt-2 font-light select-none flex justify-between cursor-pointer">
                   <a class="dark:text-neutral-400 dark:hover:text-white font-bold w-full display-block" href="javascript:window.external.AddFavorite(’cmuhdnr.vercel.app','桂圓生存手冊 | cmuhdnr.vercel.app')”>
                    <i class="text-base  mr-1">
