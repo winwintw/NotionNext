@@ -138,8 +138,7 @@ const LayoutBase = props => {
                 { 
                   <SCRIPT LANGUAGE="JavaScript"> function bookmark()
 {
-bookmarkurl="https://cmuhdnr.vercel.app"
-bookmarktitle="桂圓生存手冊 | cmuhdnr.vercel.app"
+bookmarkurl="https://cmuhdnr.vercel.app" bookmarktitle="桂圓生存手冊 | cmuhdnr.vercel.app"
 if (document.all)
 window.external.AddFavorite(bookmarkurl,bookmarktitle)
 else if (window.sidebar) // firefox
