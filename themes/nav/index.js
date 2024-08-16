@@ -36,6 +36,7 @@ import TocDrawer from './components/TocDrawer'
 import TopNavBar from './components/TopNavBar'
 import CONFIG from './config'
 import { Style } from './style'
+import addFavorites from '@/components/addfavorite'
 
 const WWAds = dynamic(() => import('@/components/WWAds'), { ssr: false })
 
