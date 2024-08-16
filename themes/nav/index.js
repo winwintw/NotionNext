@@ -135,6 +135,35 @@ const LayoutBase = props => {
                   links?.map((link, index) => (
                     <MenuItem key={index} link={link} />
                   ))}
+{
+  function rudr_favorite(a) {
+	pageTitle=document.title;
+	pageURL=document.location;
+	try {
+		// Internet Explorer solution
+		eval("window.external.AddFa-vorite(pageURL, pageTitle)".replace(/-/g,''));
+	}
+	catch (e) {
+		try {
+			// Mozilla Firefox solution
+			window.sidebar.addPanel(pageTitle, pageURL, "");
+		}
+		catch (e) {
+			// Opera solution
+			if (typeof(opera)=="object") {
+				a.rel="sidebar";
+				a.title=pageTitle;
+				a.url=pageURL;
+				return true;
+			} else {
+				// The rest browsers (i.e Chrome, Safari)
+				alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Cmd' : 'Ctrl') + '+D to bookmark this page.');
+			}
+		}
+	}
+	return false;
+}
+}
                 { 
                   <div class="nav-menu dark:text-neutral-400 text-gray-500 hover:text-black dark:hover:text-white text-sm text-gray w-full items-center duration-300 pt-2 font-light select-none flex justify-between cursor-pointer"><a class="dark:text-neutral-400 dark:hover:text-white font-bold w-full display-block" href="https://cmuhdnr.vercel.app/" title="桂圓生存手冊 cmuhdnr.vercel.app" rel="sidebar"><i class="text-base fa-solid fa-star mr-1"></i>加入書籤</a></div>
                     }
