@@ -36,7 +36,6 @@ import TocDrawer from './components/TocDrawer'
 import TopNavBar from './components/TopNavBar'
 import CONFIG from './config'
 import { Style } from './style'
-import addFavorites from './components/addfavorite'
 
 const WWAds = dynamic(() => import('@/components/WWAds'), { ssr: false })
 
@@ -136,14 +135,6 @@ const LayoutBase = props => {
                   links?.map((link, index) => (
                     <MenuItem key={index} link={link} />
                   ))}
-
-{/* 書籤功能START */}
-
-                { 
-                  <div class="nav-menu dark:text-neutral-400 text-gray-500 hover:text-black dark:hover:text-white text-sm text-gray w-full items-center duration-300 pt-2 font-light select-none flex justify-between cursor-pointer"><a class="dark:text-neutral-400 dark:hover:text-white font-bold w-full display-block" href="javascript:void(0)" onClick="return addFavorites(this);"><i class="text-base fa-solid fa-star mr-1"></i>加入書籤</a></div>
-                    }
- {/* 書籤功能END */}
-
               </div>                
             </div>
 
