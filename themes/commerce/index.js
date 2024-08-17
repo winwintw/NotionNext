@@ -1,5 +1,6 @@
 import CONFIG from './config'
 
+import '@/styles/notion.css' //  重写部分notion样式
 import LazyImage from '@/components/LazyImage'
 import replaceSearchResult from '@/components/Mark'
 import NotionPage from '@/components/NotionPage'
