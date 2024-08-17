@@ -39,7 +39,7 @@ function generateLocalesSitemap(link, allPages, locale) {
       loc: `${link}${locale}`,
       lastmod: new Date().toISOString().split('T')[0],
       changefreq: 'daily',
-      priority: '0.7'
+      priority: '1.0'
     },
     {
       loc: `${link}${locale}/archive`,
