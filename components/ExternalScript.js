@@ -22,7 +22,7 @@ const ExternalScript = (props) => {
     script.setAttribute(key, value)
   })
   document.head.appendChild(script)
-  console.log('加载外部脚本', props, script)
+  console.log('加載外部腳本', props, script)
   return null
 }
 
