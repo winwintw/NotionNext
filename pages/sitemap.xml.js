@@ -35,17 +35,11 @@ function generateLocalesSitemap(link, allPages, locale) {
     locale = '/' + locale
   }
   const defaultFields = [
-    {
-      <p> <?xml version="1.0" encoding="UTF-8"?>'
-       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> </p>
-    }
     { 
-      <url>
       loc: `${link}${locale}`,
       lastmod: new Date().toISOString().split('T')[0],
       changefreq: 'daily',
       priority: '0.7'
-      </url>
     },
     {
       loc: `${link}${locale}/archive`,
