@@ -131,7 +131,7 @@ const LayoutIndex = props => {
           <div className='w-full text-center text-4xl font-bold pt-12'>
             {notice.title}
           </div>
-          <NotionPage post={notice} className='dark:text-gray-300text-2xl text-justify' />
+          <NotionPage post={notice} className='notion light-mode notion-page notion-block-af419cf3882844f5a91d07b7ab328101' />
         </div>
       )}
       
