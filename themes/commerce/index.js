@@ -127,11 +127,8 @@ const LayoutIndex = props => {
 
       {/* 首页企业/品牌介绍 这里展示公告 */}
       {notice && (
-         <div id='brand-introduction' className='w-full'>
-          <div className='w-full text-center text-4xl font-bold pt-12'>
-            {notice.title}
-          </div>
-          <NotionPage post={notice} className='notion light-mode notion-page notion-block-af419cf3882844f5a91d07b7ab328101' />
+         <div id='brand-introduction' className='dark:text-gray-300'>
+          <NotionPage post={notice} className='mr-2 fas fa-bullhorn' />
         </div>
       )}
       
