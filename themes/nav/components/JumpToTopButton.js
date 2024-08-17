@@ -7,7 +7,7 @@
  * @returns {JSX.Element}
  * @constructor
  */
-const JumpToTopButton = ({ showPercent = false, percent, className }) => {
+const JumpToTopButton = ({ showPercent = true, percent, className }) => {
   return (
           <div
               id="jump-to-top"
