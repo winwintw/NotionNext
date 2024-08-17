@@ -24,7 +24,7 @@ export default function QrCode({ value }) {
           colorLight: '#ffffff',
           correctLevel: QRCode.CorrectLevel.H
         })
-        //   console.log('二维码', qrcode, value)
+        //   console.log('QRcode', qrcode, value)
       }
     })
     return () => {
