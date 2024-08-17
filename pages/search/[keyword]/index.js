@@ -131,7 +131,7 @@ async function filterByMemCache(allPosts, keyword) {
     const articleInfo = post.title + post.summary + tagContent + categoryContent
     let hit = articleInfo.toLowerCase().indexOf(keyword) > -1
     const indexContent = getPageContentText(post, page)
-    // console.log('全文搜索缓存', cacheKey, page != null)
+    // console.log('全文搜索緩存', cacheKey, page != null)
     post.results = []
     let hitCount = 0
     for (const i in indexContent) {
