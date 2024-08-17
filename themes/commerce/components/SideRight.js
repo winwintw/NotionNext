@@ -39,6 +39,7 @@ export default function SideRight(props) {
 
   const { locale } = useGlobal()
   return (
+    <Announcement post={notice}/>
     <div id='sideRight' className={'space-y-4 lg:w-80 lg:pt-0 px-2 pt-4'}>
       <InfoCard {...props} />
       {CONFIG.WIDGET_ANALYTICS && <AnalyticsCard {...props} />}
@@ -63,7 +64,7 @@ export default function SideRight(props) {
         <LatestPostsGroup {...props} />
       </Card>}
 
-      <Announcement post={notice}/>
+
 
       {siteConfig('COMMENT_WALINE_SERVER_URL') && siteConfig('COMMENT_WALINE_RECENT') && <HexoRecentComments/>}
 
