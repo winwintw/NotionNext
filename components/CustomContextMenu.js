@@ -93,11 +93,11 @@ export default function CustomContextMenu(props) {
     navigator.clipboard
       .writeText(url)
       .then(() => {
-        // console.log('页面地址已复制')
+        // console.log('頁面地址已複製')
         alert(`${locale.COMMON.PAGE_URL_COPIED} : ${url}`)
       })
       .catch(error => {
-        console.error('复制页面地址失败:', error)
+        console.error('複製頁面地址失敗:', error)
       })
   }
 
