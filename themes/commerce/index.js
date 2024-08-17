@@ -124,8 +124,6 @@ const LayoutIndex = props => {
   const { notice } = props
   return (
     <>
-      {/* 产品中心 */}
-      <ProductCenter {...props} />
 
       {/* 首页企业/品牌介绍 这里展示公告 */}
       {notice && (
@@ -136,6 +134,9 @@ const LayoutIndex = props => {
           <NotionPage post={notice} className='text-2xl text-justify' />
         </div>
       )}
+      
+      {/* 产品中心 */}
+      <ProductCenter {...props} />
 
       {/* 铺开导航菜单 */}
     </>
