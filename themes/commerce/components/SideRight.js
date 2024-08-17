@@ -39,7 +39,7 @@ export default function SideRight(props) {
 
   const { locale } = useGlobal()
   return (
-    <Announcement post={notice}/>
+
     <div id='sideRight' className={'space-y-4 lg:w-80 lg:pt-0 px-2 pt-4'}>
       <InfoCard {...props} />
       {CONFIG.WIDGET_ANALYTICS && <AnalyticsCard {...props} />}
@@ -69,13 +69,16 @@ export default function SideRight(props) {
       {siteConfig('COMMENT_WALINE_SERVER_URL') && siteConfig('COMMENT_WALINE_RECENT') && <HexoRecentComments/>}
 
       <div className='sticky top-20'>
+         {rightAreaSlot}
+        <FaceBookPage/>
+        <Live2D />        
+        <Announcement post={notice}/>
+               
         {post && post.toc && post.toc.length > 1 && <Card>
           <Catalog toc={post.toc} />
         </Card>}
 
-        {rightAreaSlot}
-        <FaceBookPage/>
-        <Live2D />
+
       </div>
 
     </div>
