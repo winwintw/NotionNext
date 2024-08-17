@@ -1,5 +1,6 @@
 import CONFIG from './config'
 
+import dynamic from 'next/dynamic'
 import LazyImage from '@/components/LazyImage'
 import replaceSearchResult from '@/components/Mark'
 import NotionPage from '@/components/NotionPage'
@@ -28,6 +29,8 @@ import TagItemMini from './components/TagItemMini'
 import TocDrawer from './components/TocDrawer'
 import { Style } from './style'
 
+
+const NotionPage = dynamic(() => import('@/components/NotionPage'))
 /**
  * 基础布局 采用左右两侧布局，移动端使用顶部导航栏
  * @param props
