@@ -30,7 +30,7 @@ import TocDrawer from './components/TocDrawer'
 import { Style } from './style'
 
 
-const NotionPage = dynamic(() => import('@/components/NotionPage'))
+const NotionPage = dynamic(()
 /**
  * 基础布局 采用左右两侧布局，移动端使用顶部导航栏
  * @param props
