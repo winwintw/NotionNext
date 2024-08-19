@@ -1,4 +1,4 @@
-Export function OneAD(props) {
+Export function OneAD() {
   return (
     <OneAD>
 		<div id="div-onead-draft"></div>
