@@ -24,5 +24,5 @@ const OneAD = props => {
   )
 }
 
-export default Hero
+export default OneAD
 
