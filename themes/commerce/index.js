@@ -252,7 +252,7 @@ const LayoutSlug = props => {
             className='overflow-x-auto flex-grow mx-auto md:w-full md:px-5 '>
             {/* 预览区块 */}
 
-//            {post?.type === 'Post' && (
+            {post?.type === 'Post' && (
 //          <div className='flex md:flex-row flex-col w-full justify-between py-4'>
 //                <div
 //                  id='left-img'
@@ -269,7 +269,7 @@ const LayoutSlug = props => {
 //                    dangerouslySetInnerHTML={{ __html: post?.summary }}></div>
 //                </div>
 //            </div>
-//            )}
+            )}
 
             <hr className='border-2 border-[#D2232A]' />
 
