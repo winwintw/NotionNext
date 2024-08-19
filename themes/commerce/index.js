@@ -267,9 +267,8 @@ const LayoutSlug = props => {
 *                   <div
 *                     dangerouslySetInnerHTML={{ __html: post?.summary }}></div>
 *               </div>
-*           </div>
-*           )}
-*/}
+*           </div>*/
+           )}
             <article
               itemScope
               itemType='https://schema.org/Movie'
