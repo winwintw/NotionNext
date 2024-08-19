@@ -135,7 +135,7 @@ const LayoutIndex = props => {
       )}
       
       {/* OneAds */}
-      <div id="div-onead-draft"></div>
+      <div id="div-onead-draft"> </div>
       <script type="text/javascript">
           var custom_call = function (params) {
                   if (params.hasAd) {console.log('TD has AD') } else {console.log('TD AD Empty')}
