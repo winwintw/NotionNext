@@ -28,7 +28,7 @@ import SlotBar from './components/SlotBar'
 import TagItemMini from './components/TagItemMini'
 import TocDrawer from './components/TocDrawer'
 import { Style } from './style'
-import OneAD from './components/OneAD'
+import OneAD from '@/components/OneAD'
 
 
 /**
