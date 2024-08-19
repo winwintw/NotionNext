@@ -133,7 +133,7 @@ const LayoutIndex = props => {
           <NotionPage post={notice} className='w-full px-6 pb-6 md:pb-20 max-w-8xl justify-center mx-auto notion light-mode notion-page notion-block-af419cf3882844f5a91d07b7ab328101' />
         </div>
         
-     <div id='div-onead-draft'></div>
+       <div id='div-onead-draft' > </div>
      <script type='text/javascript'>
   var custom_call = function (params) {
       if (params.hasAd) {
