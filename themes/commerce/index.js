@@ -269,7 +269,6 @@ const LayoutSlug = props => {
 *               </div>
 *           </div>
 *           )}
-*
 */}
             <article
               itemScope
