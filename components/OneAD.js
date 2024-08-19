@@ -1,6 +1,5 @@
-const OneAD = props => {
+Export function OneAD(props) {
   return (
-    
 <div id="div-onead-draft"></div>
 <script type="text/javascript">
   var custom_call = function (params) {
@@ -23,6 +22,3 @@ const OneAD = props => {
 
   )
 }
-
-export default OneAD
-
