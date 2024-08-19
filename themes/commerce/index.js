@@ -135,8 +135,7 @@ const LayoutIndex = props => {
       )}
       
       {/* OneAD */} 
-  {
-<div id="div-onead-draft"></div>
+{<div id="div-onead-draft"></div>
 <script type="text/javascript">
   var custom_call = function (params) {
       if (params.hasAd) {
@@ -154,8 +153,7 @@ const LayoutIndex = props => {
   window.ONEAD_text_pubs = window.ONEAD_text_pubs || [];
   ONEAD_text_pubs.push(ONEAD_TEXT);
 </script>
-<script src="https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js"></script> 
-  }
+<script src="https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js"></script> }
       
       {/* 产品中心 */}
       <ProductCenter {...props} />
