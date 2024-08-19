@@ -264,8 +264,8 @@ const LayoutSlug = props => {
 *
 *               <div id='info-right' className='md:w-1/2 p-4'>
 *                   <div>{post?.title}</div>
-*                   <div
-*                     dangerouslySetInnerHTML={{ __html: post?.summary }}></div>
+//                   <div
+//                     dangerouslySetInnerHTML={{ __html: post?.summary }}></div>
 *               </div>
 *           </div>*/
            )}
