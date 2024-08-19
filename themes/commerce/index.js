@@ -270,7 +270,6 @@ const LayoutSlug = props => {
 *           </div>
 *           )}
 *
-*            <hr className='border-2 border-[#D2232A]' />
 */}
             <article
               itemScope
