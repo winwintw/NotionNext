@@ -252,7 +252,7 @@ const LayoutSlug = props => {
             className='overflow-x-auto flex-grow mx-auto md:w-full md:px-5 '>
               {/* 预览区块 */}
           {post?.type === 'Post' && (
-/**         <div className='flex md:flex-row flex-col w-full justify-between py-4'>
+{/**         <div className='flex md:flex-row flex-col w-full justify-between py-4'>
 *                 <div
 *                   id='left-img'
 *                   className='md:w-1/2 flex justify-center items-center border'>
@@ -271,7 +271,7 @@ const LayoutSlug = props => {
 *           )}
 *
 *            <hr className='border-2 border-[#D2232A]' />
-*/
+*/}
             <article
               itemScope
               itemType='https://schema.org/Movie'
