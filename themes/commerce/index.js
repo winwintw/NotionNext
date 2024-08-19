@@ -269,9 +269,9 @@ const LayoutSlug = props => {
 *               </div>
 *           </div>
 *           )}
+*
+*            <hr className='border-2 border-[#D2232A]' />
 */
-            <hr className='border-2 border-[#D2232A]' />
-
             <article
               itemScope
               itemType='https://schema.org/Movie'
