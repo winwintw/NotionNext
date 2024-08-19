@@ -132,9 +132,8 @@ const LayoutIndex = props => {
          <div id='brand-introduction' className='dark:text-gray-300 mx-auto overflow-hidden'>
           <NotionPage post={notice} className='w-full px-6 pb-6 md:pb-20 max-w-8xl justify-center mx-auto notion light-mode notion-page notion-block-af419cf3882844f5a91d07b7ab328101' />
         </div>
-      )}
-      
-      {/* OneAD */} 
+        
+         {/* OneAD */} 
      <div id='div-onead-draft'></div>
      <script type='text/javascript'>
   var custom_call = function (params) {
@@ -154,6 +153,9 @@ const LayoutIndex = props => {
   ONEAD_text_pubs.push(ONEAD_TEXT);
 </script>
 <script src='https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js'></script>
+     
+      )}
+      
       
       {/* 产品中心 */}
       <ProductCenter {...props} />
