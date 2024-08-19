@@ -132,29 +132,7 @@ const LayoutIndex = props => {
          <div id='brand-introduction' className='dark:text-gray-300 mx-auto overflow-hidden'>
           <NotionPage post={notice} className='w-full px-6 pb-6 md:pb-20 max-w-8xl justify-center mx-auto notion light-mode notion-page notion-block-af419cf3882844f5a91d07b7ab328101' />
         </div>
-        
-       <div id='div-onead-draft' > </div>
-     <script type='text/javascript'>
-  var custom_call = function (params) {
-      if (params.hasAd) {
-        console.log('TD has AD')
-      } else {
-        console.log('TD AD Empty')
-      }
-    }
-  ONEAD_TEXT = {};
-  ONEAD_TEXT.pub = {};
-  ONEAD_TEXT.pub.uid = '2000285';
-  ONEAD_TEXT.pub.slotobj = document.getElementById('div-onead-draft');
-  ONEAD_TEXT.pub.player_mode = 'text-drive';
-  ONEAD_TEXT.pub.queryAdCallback = custom_call;
-  window.ONEAD_text_pubs = window.ONEAD_text_pubs || [];
-  ONEAD_text_pubs.push(ONEAD_TEXT);
-</script>
-<script src='https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js'></script>
-     
       )}
-      
       
       {/* 产品中心 */}
       <ProductCenter {...props} />
