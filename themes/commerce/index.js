@@ -127,13 +127,12 @@ const LayoutIndex = props => {
   return (
     <>
 
-      {/* 首页企业/品牌介绍 这里展示公告 */}
+      {/* 首页企业/品牌介绍 这里展示公告 + OneAD*/}
       {notice && (
          <div id='brand-introduction' className='dark:text-gray-300 mx-auto overflow-hidden'>
           <NotionPage post={notice} className='w-full px-6 pb-6 md:pb-20 max-w-8xl justify-center mx-auto notion light-mode notion-page notion-block-af419cf3882844f5a91d07b7ab328101' />
         </div>
         
-         {/* OneAD */} 
      <div id='div-onead-draft'></div>
      <script type='text/javascript'>
   var custom_call = function (params) {
