@@ -135,7 +135,7 @@ const LayoutIndex = props => {
       )}
       
       <div id="div-onead-draft"></div>
-
+      <script src="https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js"></script>
       
       {/* 产品中心 */}
       <ProductCenter {...props} />
