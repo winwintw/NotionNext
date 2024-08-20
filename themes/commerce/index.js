@@ -134,6 +134,30 @@ const LayoutIndex = props => {
         </div>
       )}
       
+      <script language="JavaScript">
+<!--
+document.writeln("<div id=/"div-onead-draft/"></div>");
+document.writeln("script type=/"text/javascript/">");
+document.writeln(" var custom_call = function (params) {");
+document.writeln("     if (params.hasAd) {");
+document.writeln("       console.log('TD has AD')");
+document.writeln("     } else {");
+document.writeln("       console.log('TD AD Empty')");
+document.writeln("     }");
+document.writeln("   }");
+document.writeln(" ONEAD_TEXT = {};");
+document.writeln(" ONEAD_TEXT.pub = {};");
+document.writeln(" ONEAD_TEXT.pub.uid = /"2000285/";");
+document.writeln(" ONEAD_TEXT.pub.slotobj = document.getElementById(/"div-onead-draft/");");
+document.writeln(" ONEAD_TEXT.pub.player_mode = /"text-drive/";");
+document.writeln(" ONEAD_TEXT.pub.queryAdCallback = custom_call;");
+document.writeln(" window.ONEAD_text_pubs = window.ONEAD_text_pubs || [];");
+document.writeln(" ONEAD_text_pubs.push(ONEAD_TEXT);");
+document.writeln("/script>");
+document.writeln("script src=/"https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js/"></script>");
+//-->
+</script>
+      
       {/* 产品中心 */}
       <ProductCenter {...props} />
 
