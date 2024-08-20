@@ -68,7 +68,7 @@ export default function Header(props) {
     const scrollS = window.scrollY
     const nav = document.querySelector('#top-navbar')
 
-    const narrowNav = scrollS > 40
+    const narrowNav = scrollS > 60
     if (narrowNav) {
       nav && nav.classList.replace('h-18', 'h-14')
     } else {
