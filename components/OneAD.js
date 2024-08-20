@@ -48,4 +48,4 @@ const OneADEmbed = () => {
   return <></>
 }
 
-export { embOneAD }
+export default embOneAD
