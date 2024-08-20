@@ -70,9 +70,9 @@ export default function Header(props) {
 
     const narrowNav = scrollS > 50
     if (narrowNav) {
-      nav && nav.classList.replace('h-20', 'h-14')
+      nav && nav.classList.replace('h-18', 'h-14')
     } else {
-      nav && nav.classList.replace('h-14', 'h-20')
+      nav && nav.classList.replace('h-14', 'h-18')
     }
   }, throttleMs)
 
