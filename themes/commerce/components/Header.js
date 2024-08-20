@@ -94,7 +94,7 @@ export default function Header(props) {
       {/* 导航栏菜单内容 */}
       <div
         id='top-navbar'
-        className='px-4 flex w-full mx-auto max-w-screen-xl h-20 transition-all duration-200 items-between'>
+        className='px-4 flex w-full mx-auto max-w-screen-xl h-18 transition-all duration-200 items-between'>
         {/* 左侧图标Logo */}
         <LogoBar {...props} />
 
