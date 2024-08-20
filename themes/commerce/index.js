@@ -135,8 +135,8 @@ const LayoutIndex = props => {
       )}
       
       <div id="div-onead-draft"></div>
-      <script type="text/javascript">
-      ONEAD_TEXT = {};
+      <script type="text/javascript">  
+  ONEAD_TEXT = {};
   ONEAD_TEXT.pub = {};
   ONEAD_TEXT.pub.uid = "2000285";
   ONEAD_TEXT.pub.slotobj = document.getElementById("div-onead-draft");
@@ -144,6 +144,14 @@ const LayoutIndex = props => {
   ONEAD_TEXT.pub.queryAdCallback = custom_call;
   window.ONEAD_text_pubs = window.ONEAD_text_pubs || [];
   ONEAD_text_pubs.push(ONEAD_TEXT);
+  
+    var custom_call = function (params) {
+      if (params.hasAd) {
+        console.log('TD has AD')
+      } else {
+        console.log('TD AD Empty')
+      }
+    }
       </script>
       <script src="https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js"></script>
       
