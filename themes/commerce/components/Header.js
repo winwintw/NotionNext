@@ -70,9 +70,9 @@ export default function Header(props) {
 
     const narrowNav = scrollS > 50
     if (narrowNav) {
-      nav && nav.classList.replace('h-19', 'h-14')
+      nav && nav.classList.replace('h-20', 'h-14')
     } else {
-      nav && nav.classList.replace('h-14', 'h-19')
+      nav && nav.classList.replace('h-14', 'h-20')
     }
   }, throttleMs)
 
@@ -94,7 +94,7 @@ export default function Header(props) {
       {/* 导航栏菜单内容 */}
       <div
         id='top-navbar'
-        className='px-4 flex w-full mx-auto max-w-screen-xl h-19 transition-all duration-200 items-between'>
+        className='px-4 flex w-full mx-auto max-w-screen-xl h-20 transition-all duration-200 items-between'>
         {/* 左侧图标Logo */}
         <LogoBar {...props} />
 
