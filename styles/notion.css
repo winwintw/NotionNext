@@ -1960,6 +1960,7 @@ svg + .notion-page-title-text {
 
 .notion-asset-wrapper-pdf > div {
   display: block !important;
+  height: 100%;
 }
 
 /* https://github.com/kchen0x */
