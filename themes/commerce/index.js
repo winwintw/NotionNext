@@ -150,6 +150,7 @@ const LayoutIndex = props => {
 
       
       {/* 产品中心 */}
+      <AdComponent />
       <ProductCenter {...props} />
 
       {/* 铺开导航菜单 */}
