@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import Script from 'next/script';
 
-const ONEAD = () => {
+const AdComponent = () => {
   useEffect(() => {
-    const custom_Call = (params) => {
+    window.custom_call = function (params) {
       if (params.hasAd) {
         console.log('TD has AD');
       } else {
@@ -16,7 +16,7 @@ const ONEAD = () => {
         uid: "2000285",
         slotobj: document.getElementById("div-onead-draft"),
         player_mode: "text-drive",
-        queryAdCallback: custom_Call
+        queryAdCallback: window.custom_call
       }
     };
 
@@ -35,4 +35,4 @@ const ONEAD = () => {
   );
 };
 
-export default ONEAD;
+export default AdComponent;
