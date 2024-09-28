@@ -3,7 +3,7 @@ import Script from 'next/script';
 
 const ONEAD = () => {
   useEffect(() => {
-    const custom_call = (params) => {
+    const Custom_Call = (params) => {
       if (params.hasAd) {
         console.log('TD has AD');
       } else {
