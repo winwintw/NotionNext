@@ -59,4 +59,4 @@ const OneEmbed = () => {
 }
 
 
-export { AdComponent, OneEmbed }
+export default { AdComponent, OneEmbed }
