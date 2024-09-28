@@ -242,6 +242,15 @@ const AdEmbed = dynamic(
   { ssr: true }
 )
 
+/**
+ * 文内ONAD广告
+ */
+const OneEmbed = dynamic(
+  () => import('@/components/AdComponent').then(m => m.OneEmbed),
+  { ssr: true }
+)
+
+
 const Collection = dynamic(
   () =>
     import('react-notion-x/build/third-party/collection').then(
