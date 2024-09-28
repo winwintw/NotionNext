@@ -3,7 +3,7 @@ import Script from 'next/script';
 
 const ONEAD = () => {
   useEffect(() => {
-    const Custom_Call = (params) => {
+    const custom_Call = (params) => {
       if (params.hasAd) {
         console.log('TD has AD');
       } else {
@@ -16,7 +16,7 @@ const ONEAD = () => {
         uid: "2000285",
         slotobj: document.getElementById("div-onead-draft"),
         player_mode: "text-drive",
-        queryAdCallback: custom_call
+        queryAdCallback: custom_Call
       }
     };
 
