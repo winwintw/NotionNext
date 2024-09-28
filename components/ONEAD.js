@@ -35,4 +35,4 @@ const ONEAD = () => {
   );
 };
 
-export default AdComponent;
+export default ONEAD;
