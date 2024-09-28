@@ -53,7 +53,6 @@ const OneEmbed = () => {
         }
       })
 
-      requestAd()
     }, 1000)
   }, [])
   return <></>
