@@ -247,7 +247,7 @@ const AdEmbed = dynamic(
  */
 const OneEmbed = dynamic(
   () => import('@/components/AdComponent').then(m => m.OneEmbed),
-  { ssr: true }
+  { ssr: false }
 )
 
 
