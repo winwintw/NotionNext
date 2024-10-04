@@ -102,7 +102,6 @@ const NotionPage = ({ post, className }) => {
         }}
       />
 
-      <AdEmbed />
       <PrismMac />
       <OneEmbed />
     </div>
@@ -240,14 +239,6 @@ const TweetEmbed = dynamic(() => import('react-tweet-embed'), {
  */
 const AdEmbed = dynamic(
   () => import('@/components/GoogleAdsense').then(m => m.AdEmbed),
-  { ssr: true }
-)
-
-/**
- * 文内ONAD广告
- */
-const OneEmbed = dynamic(
-  () => import('@/components/AdComponent').then(m => m.OneEmbed),
   { ssr: true }
 )
 
