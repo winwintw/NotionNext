@@ -136,7 +136,7 @@ const LayoutIndex = props => {
       
       
  
-
+      <AdComponent />
       {/* 产品中心 */}
       <ProductCenter {...props} />
 
