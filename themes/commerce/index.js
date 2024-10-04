@@ -28,6 +28,7 @@ import SlotBar from './components/SlotBar'
 import TagItemMini from './components/TagItemMini'
 import TocDrawer from './components/TocDrawer'
 import { Style } from './style'
+import AdComponent from '@/components/AdComponent'
 
 /**
  * 基础布局 采用左右两侧布局，移动端使用顶部导航栏
@@ -134,20 +135,9 @@ const LayoutIndex = props => {
       )}
       
       
-      <div id="div-onead-draft"></div>
-      <script type="text/javascript">  
-  ONEAD_TEXT = {};
-  ONEAD_TEXT.pub = {};
-  ONEAD_TEXT.pub.uid = "2000285";
-  ONEAD_TEXT.pub.slotobj = document.getElementById("div-onead-draft");
-  ONEAD_TEXT.pub.player_mode = "text-drive";
-  ONEAD_TEXT.pub.queryAdCallback = custom_call;
-  window.ONEAD_text_pubs = window.ONEAD_text_pubs || [];
-  ONEAD_text_pubs.push(ONEAD_TEXT);
-      </script>
-      <script src="https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js"></script>
-
-      
+ 
+      {/* OneAd */} 
+      <AdComponent />     
       {/* 产品中心 */}
       <ProductCenter {...props} />
 
