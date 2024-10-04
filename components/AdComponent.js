@@ -35,5 +35,28 @@ const AdComponent = () => {
   );
 };
 
+const OneEmbed = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      // 找到所有 class 为 notion-text 且内容为 '<One/>' 的 div 元素
+      const notionTextElements = document.querySelectorAll('div.notion-text')
 
-export default AdComponent
+      // 遍历找到的元素
+      notionTextElements?.forEach(element => {
+        // 检查元素的内容是否为 '<One/>'
+        if (element.innerHTML.trim() === '&lt;One/&gt;') {
+          // 创建新的 <AdComponent/ > 元素
+          const newInsElement = document.createElement('AdComponent/')
+
+          // 用新创建的 <ins> 元素替换掉原来的 div 元素
+          element?.parentNode?.replaceChild(newInsElement, element)
+        }
+      })
+
+    }, 1000)
+  }, [])
+  return <></>
+}
+
+
+export default { AdComponent, OneEmbed }
