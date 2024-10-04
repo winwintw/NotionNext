@@ -103,7 +103,7 @@ const NotionPage = ({ post, className }) => {
       />
 
       <PrismMac />
-      <OneEmbed />
+      <AdEmbed />
     </div>
   )
 }
