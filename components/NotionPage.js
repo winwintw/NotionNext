@@ -245,12 +245,13 @@ const AdEmbed = dynamic(
 
 /**
  * 文内OneAd广告
- */
+ 
 const OneEmbed = dynamic(
   () => import('@/components/AdComponent').then(m => m.OneEmbed),
   { ssr: false }
 )
 
+ */
 
 
 const Collection = dynamic(
