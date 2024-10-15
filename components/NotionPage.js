@@ -274,6 +274,4 @@ const Tweet = ({ id }) => {
   return <TweetEmbed tweetId={id} />
 }
 
-
-
-export default Notionpage
+export default NotionPage
