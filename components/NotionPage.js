@@ -7,7 +7,6 @@ import dynamic from 'next/dynamic'
 import { useEffect, useRef } from 'react'
 import { NotionRenderer } from 'react-notion-x'
 import AdComponent from '@/components/AdComponent'
-import CustomScript from '@/components/CustomScript'
 
 /**
  * 整个站点的核心组件
