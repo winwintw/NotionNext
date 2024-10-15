@@ -105,6 +105,7 @@ const NotionPage = ({ post, className }) => {
 
       <PrismMac />
       <AdEmbed />
+      <AdComponent />
     </div>
   )
 }
