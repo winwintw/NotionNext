@@ -276,13 +276,5 @@ const Tweet = ({ id }) => {
 }
 
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <CustomScript />
-    </>
-  );
-}
 
-export default MyApp, Notionpage
+export default Notionpage
