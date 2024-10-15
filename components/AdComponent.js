@@ -29,7 +29,7 @@ const AdComponent = () => {
       <div id="div-onead-draft"></div>
       <Script
         src="https://ad-specs.guoshipartners.com/static/js/ad-serv.min.js"
-        strategy="lazyOnload"
+        strategy="afterInteractive"
       />
     </>
   );
