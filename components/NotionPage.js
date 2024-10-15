@@ -275,7 +275,6 @@ const Tweet = ({ id }) => {
   return <TweetEmbed tweetId={id} />
 }
 
-export default NotionPage
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -286,4 +285,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default MyApp, Notionpage
