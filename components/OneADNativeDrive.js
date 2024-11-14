@@ -18,7 +18,7 @@ const OneADNativeDrive = () => {
         player_mode: "native-drive-group",
         space_id: "",
         position_id: "0",
-        queryAdCallback: custom_call_NDG
+        queryAdCallback: window.custom_call
       }
     };
 
