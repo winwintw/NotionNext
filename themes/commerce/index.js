@@ -29,6 +29,8 @@ import TagItemMini from './components/TagItemMini'
 import TocDrawer from './components/TocDrawer'
 import { Style } from './style'
 import AdComponent from '@/components/AdComponent'
+import OneADNativeDrive from '@/components/OneADNativeDrive'
+
 
 /**
  * 基础布局 采用左右两侧布局，移动端使用顶部导航栏
@@ -137,6 +139,7 @@ const LayoutIndex = props => {
       
  
       <AdComponent />
+      <OneADNativeDrive />
       {/* 产品中心 */}
       <ProductCenter {...props} />
 
