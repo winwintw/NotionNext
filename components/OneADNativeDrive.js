@@ -3,8 +3,8 @@ import Script from 'next/script';
 
 const OneADNativeDrive = () => {
   useEffect(() => {
-    const custom_call_NDG = (params) => {
-      if (params.hasAd) {
+    window.custom_call = function (params) {
+        if (params.hasAd) {
         console.log('NDG has AD');
       } else {
         console.log('NDG AD Empty');
