@@ -136,8 +136,6 @@ const LayoutIndex = props => {
       )}
       
       
- 
-      <AdComponent />
       <OneADNativeDrive />
       {/* 产品中心 */}
       <ProductCenter {...props} />
@@ -260,7 +258,7 @@ const LayoutSlug = props => {
               itemScope
               itemType='https://schema.org/Movie'
               className='subpixel-antialiased overflow-y-hidden'>
-                <AdComponent/ >
+                <OneADNativeDrive />
               {/* Notion文章主体 */}
               <section className='px-5 justify-center mx-auto max-w-2xl lg:max-w-full'>
                 {post && <NotionPage post={post} />}
