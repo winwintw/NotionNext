@@ -1,3 +1,5 @@
+/**
+
 import { useEffect } from 'react';
 import Script from 'next/script';
 
@@ -37,3 +39,6 @@ const AdComponent = () => {
 
 
 export default AdComponent
+
+
+*/
