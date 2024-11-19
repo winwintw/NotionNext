@@ -22,10 +22,9 @@ const ProductCard = ({ index, post, siteInfo }) => {
                 <Link href={`${siteConfig('SUB_PATH', '')}/${post.slug}`} passHref legacyBehavior>
                     <div className="overflow-hidden m-2">
                         <LazyImage priority={index === 1} src={post?.pageCoverThumbnail} className='h-auto aspect-square w-full object-cover object-center group-hover:scale-110 duration-500' />
-                    <div className='text-center'>{post.title}</div>
                     </div>
                 </Link>
-  
+                   <div className='text-center'>{post.title}</div>
                 
                 
 
