@@ -116,8 +116,8 @@ const Footer = props => {
                             target='_blank'
                             rel='noreferrer'
                             href={siteConfig('CONTACT_TELEGRAM', '#', CONFIG)}
-                            title={'telegram'}>
-                            <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-red-400 hover:text-red-600' />
+                            title={'Youtube'}>
+                            <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-red-400 hover:text-red-600' />
                           </a>
                         }
                       </div>
@@ -129,7 +129,7 @@ const Footer = props => {
                       <a
                         target='_blank'
                         rel='noreferrer'
-                        title={'email'}
+                        title={'Email'}
                         href={`mailto:${siteConfig('CONTACT_EMAIL')}`}>
                         <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-red-400 hover:text-red-600' />{' '}
                         {siteConfig('CONTACT_EMAIL')}
