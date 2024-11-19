@@ -107,6 +107,7 @@ const Footer = props => {
                       </div>
                     )}
 
+                    <div className='text-lg'>
                     {JSON.parse(
                       siteConfig('COMMERCE_CONTACT_TELEGRAM_SHOW', true, CONFIG)
                     ) && (
@@ -123,6 +124,7 @@ const Footer = props => {
                         }
                       </div>
                     )}
+                    </div>
                   </div>
                   <div className='text-lg'>
                     {' '}
