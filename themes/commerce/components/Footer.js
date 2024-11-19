@@ -118,6 +118,7 @@ const Footer = props => {
                             href={siteConfig('CONTACT_TELEGRAM', '#', CONFIG)}
                             title={'Youtube'}>
                             <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-red-400 hover:text-red-600' />
+                            {siteConfig('CONTACT_TELEGRAM')}
                           </a>
                         }
                       </div>
