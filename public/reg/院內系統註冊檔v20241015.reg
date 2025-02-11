@@ -109,5 +109,3 @@ Windows Registry Editor Version 5.00
 "HomeButtonEnabled"=dword:00000001
 "HomeButtonPage"="https://cmuhdnr.vercel.app"
 "RestoreOnStartup"=dword:4
-
-
