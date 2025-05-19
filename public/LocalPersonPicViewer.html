@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>病人圖片查詢</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input { padding: 6px; width: 200px; }
+    button { padding: 6px 12px; margin-left: 10px; }
+    img { margin-top: 20px; max-width: 600px; display: block; border: 1px solid #ccc; }
+    #error { color: red; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>病人圖片查詢</h2>
+  <input type="text" id="pid" placeholder="輸入病歷號碼">
+  <button onclick="loadImage()">查詢圖片</button>
+  <div id="output">
+    <p id="url"></p>
+    <img id="resultImage" src="" onerror="showError()" style="display:none;">
+    <div id="error"></div>
+  </div>
+
+  <script>
+    function loadImage() {
+      const pid = document.getElementById('pid').value.trim();
+      if (!pid) return;
+
+      const imageUrl = `http://10.20.8.117/personpic/${pid}.jpg`;
+      document.getElementById('url').textContent = `圖片網址：${imageUrl}`;
+
+      const img = document.getElementById('resultImage');
+      img.src = imageUrl;
+      img.style.display = 'block';
+
+      document.getElementById('error').textContent = '';
+    }
+
+    function showError() {
+      const img = document.getElementById('resultImage');
+      img.style.display = 'none';
+      document.getElementById('error').textContent = '⚠️ 無法載入圖片，請確認路徑或病歷號碼是否正確';
+    }
+  </script>
+</body>
+</html>
