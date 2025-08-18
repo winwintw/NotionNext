@@ -1,0 +1,18 @@
+# Harrison's Internal Medicine, 22nd Edition
+# Washington Manual, 37th Edition
+# Pocket Medicine: The Massachusetts General Hospital Handbook of Internal Medicine, 8th Edition
+# UpToDate
+https://www.uptodate.com
+# Sanford Guide
+# 台灣疾病管制署
+https://www.cdc.gov.tw/Disease/Index
+# 台灣肺炎診療指引
+https://pneumonia.idtaiwanguideline.org/
+# American Heart Association (AHA) Guidelines
+https://professional.heart.org/en/guidelines-and-statements
+# American Academy of Neurology (AAN) Guidelines
+https://www.aan.com/practice/guidelines
+# The Radiology Assistant
+https://radiologyassistant.nl/
+# Radiopaedia.org
+https://radiopaedia.org/
