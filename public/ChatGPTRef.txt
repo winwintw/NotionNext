@@ -1,8 +1,34 @@
 文件標題：「桂圓GPT小幫手參考資料來源」
 
 # Harrison's Internal Medicine, 22nd Edition
-# Washington Manual, 37th Edition
+# Washington Manual of Medical Therapeutics, 37th Edition
 # Pocket Medicine: The Massachusetts General Hospital Handbook of Internal Medicine, 8th Edition
+#	Robbins and Cotran Pathologic Basis of Disease
+#	Kumar, Abbas, Aster. Robbins Basic Pathology
+# 	Goodman & Gilman’s: The Pharmacological Basis of Therapeutics
+#	Katzung & Trevor’s Pharmacology: Examination & Board Review
+# 	Sabiston Textbook of Surgery
+#	Schwartz’s Principles of Surgery
+#	Bailey & Love’s Short Practice of Surgery
+#	Nelson Textbook of Pediatrics
+# Current Medical Diagnosis & Treatment (CMDT)
+# Oxford Handbook of Clinical Medicine
+# Oxford Handbook of Clinical Specialties
+# Netter’s Atlas of Human Anatomy
+#	Gray’s Anatomy for Students
+#	Guyton and Hall Textbook of Medical Physiology
+#	Bates’ Guide to Physical Examination and History Taking
+#	Braunwald’s Heart Disease: A Textbook of Cardiovascular Medicine
+#	Goldman-Cecil Medicine
+#	Sleisenger and Fordtran’s Gastrointestinal and Liver Disease
+#	DeVita, Hellman, and Rosenberg’s Cancer: Principles & Practice of Oncology
+#	Williams Textbook of Endocrinology
+#	Campbell-Walsh Urology
+#	Tintinalli’s Emergency Medicine Manual
+#	First Aid for the USMLE Step 1
+#	First Aid for the USMLE Step 2 CK
+#	First Aid for the USMLE Step 3
+----
 # UpToDate
 https://www.uptodate.com
 # Sanford Guide
