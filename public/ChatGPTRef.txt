@@ -1,3 +1,5 @@
+文件標題：「桂圓GPT小幫手參考資料來源」
+
 # Harrison's Internal Medicine, 22nd Edition
 # Washington Manual, 37th Edition
 # Pocket Medicine: The Massachusetts General Hospital Handbook of Internal Medicine, 8th Edition
@@ -16,3 +18,5 @@ https://www.aan.com/practice/guidelines
 https://radiologyassistant.nl/
 # Radiopaedia.org
 https://radiopaedia.org/
+# 健保藥品給付規定內容-114.07.24更新<br>
+https://cmuhdnr.vercel.app/%E5%81%A5%E4%BF%9D%E8%97%A5%E5%93%81%E7%B5%A6%E4%BB%98%E8%A6%8F%E5%AE%9A%E5%85%A7%E5%AE%B9-114.07.24%E6%9B%B4%E6%96%B0.docx<br>
