@@ -18,5 +18,33 @@ https://www.aan.com/practice/guidelines
 https://radiologyassistant.nl/
 # Radiopaedia.org
 https://radiopaedia.org/
-# 健保藥品給付規定內容-114.07.24更新<br>
-https://cmuhdnr.vercel.app/%E5%81%A5%E4%BF%9D%E8%97%A5%E5%93%81%E7%B5%A6%E4%BB%98%E8%A6%8F%E5%AE%9A%E5%85%A7%E5%AE%B9-114.07.24%E6%9B%B4%E6%96%B0.docx<br>
+# 健保藥品給付規定內容-114.07.24更新
+https://cmuhdnr.vercel.app/%E5%81%A5%E4%BF%9D%E8%97%A5%E5%93%81%E7%B5%A6%E4%BB%98%E8%A6%8F%E5%AE%9A%E5%85%A7%E5%AE%B9-114.07.24%E6%9B%B4%E6%96%B0.docx
+# 2022第2型糖尿病臨床照護指引
+http://www.endo-dm.org.tw/DB/book/88/11103%E6%8C%87%E5%BC%95_v6-2_all(%E5%85%A7%E6%96%87).pdf?v=1755632908959
+# 2022第2型糖尿病臨床照護指引-第二十一章 住院病人的糖尿病照護 (2023年2月更新版)
+http://www.endo-dm.org.tw/DB/book/114/2022%E6%8C%87%E5%BC%95_ch21(0301)_%E6%9B%B4%E6%96%B0.pdf?v=1755632911195
+# 2022第2型糖尿病臨床照護指引-第十六章 糖尿病的其他共病症 (2024年5月更新版)
+http://www.endo-dm.org.tw/DB/book/114/1130528_16%E7%AB%A0%E6%9B%B4%E6%96%B0_v2.pdf?v=1755632911195
+# 2022第2型糖尿病臨床照護指引-第十五章 糖尿病的小血管併發症與糖尿病足-4.糖尿病足 (2024年6月更新版)
+http://www.endo-dm.org.tw/DB/book/114/1130626_15%E7%AB%A0%E6%9B%B4%E6%96%B0_v4.pdf?v=1755632911195
+# Taiwan Diabetes Lipid Guideline 2023
+http://www.endo-dm.org.tw/DB/book/111/TAIWAN%20DIABETES%20LIPID%20GUIDELINE%202023_0110%E6%9B%B4%E6%96%B0.pdf?v=1755633118416
+# 2023孕期糖尿病臨床照護指引
+http://www.endo-dm.org.tw/DB/book/110/1121120_%E5%AD%95%E6%9C%9F%E7%B3%96%E5%B0%BF%E7%97%85_v5-2(1123%E5%AE%9A%E7%A8%BF).pdf?v=1755633155748
+# 2024 台灣糖尿病腎臟疾病臨床照護指引
+http://www.endo-dm.org.tw/DB/book/131/2024%20%E5%8F%B0%E7%81%A3%E7%B3%96%E5%B0%BF%E7%97%85%E8%85%8E%E8%87%9F%E7%96%BE%E7%97%85%E8%87%A8%E5%BA%8A%E7%85%A7%E8%AD%B7%E6%8C%87%E5%BC%95_%E7%B7%A8%E6%8E%92%20v10.pdf?v=1755633193047
+# 2022第2型糖尿病臨床照護指引 《感染與疫苗注射建議修訂》
+http://www.endo-dm.org.tw/DB/book/91/2022%E7%AC%AC2%E5%9E%8B%E7%B3%96%E5%B0%BF%E7%97%85%E8%87%A8%E5%BA%8A%E7%85%A7%E8%AD%B7%E6%8C%87%E5%BC%95%20%E3%80%8A%E6%84%9F%E6%9F%93%E8%88%87%E7%96%AB%E8%8B%97%E6%B3%A8%E5%B0%84%E5%BB%BA%E8%AD%B0%E4%BF%AE%E8%A8%82%E3%80%8B%E9%9B%BB%E5%AD%90%E6%AA%94.pdf?v=1755633228129
+# 財團法人肝病防治學術基金會-Ｃ型肝炎治療手冊(2021.9)
+https://www.liver.org.tw/uploadfile/fileperiod_news02_category/2_1632386706.pdf
+# 財團法人肝病防治學術基金會-Ｂ型肝炎治療手冊(2025.6)
+https://www.liver.org.tw/uploadfile/fileperiod_news02_category/2_1750906017.pdf
+# 財團法人肝病防治學術基金會-肝癌對策病友手冊(2025.5)
+https://www.liver.org.tw/uploadfile/fileperiod_news02_category/2_1746595673.pdf
+# 2024 GINA Main Report: Global Strategy for Asthma Management and Prevention
+https://ginasthma.org/wp-content/uploads/2024/05/GINA-2024-Strategy-Report-24_05_22_WMS.pdf
+# 2025 GOLD Report: GLOBAL STRATEGY FOR PREVENTION, DIAGNOSIS AND MANAGEMENT
+https://goldcopd.org/wp-content/uploads/2024/11/GOLD-2025-Report-v1.0-15Nov2024_WMV.pdf
+
+
