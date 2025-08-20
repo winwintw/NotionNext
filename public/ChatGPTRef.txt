@@ -45,7 +45,7 @@ https://radiologyassistant.nl/
 # Radiopaedia.org
 https://radiopaedia.org/
 # 健保藥品給付規定內容-114.07.24更新
-https://cmuhdnr.vercel.app/%E5%81%A5%E4%BF%9D%E8%97%A5%E5%93%81%E7%B5%A6%E4%BB%98%E8%A6%8F%E5%AE%9A%E5%85%A7%E5%AE%B9-114.07.24%E6%9B%B4%E6%96%B0.docx
+https://cmuhdnr.vercel.app/NHIdrugs1140724.txt
 # 2022第2型糖尿病臨床照護指引
 # 2022第2型糖尿病臨床照護指引-第二十一章 住院病人的糖尿病照護 (2023年2月更新版)
 # 2022第2型糖尿病臨床照護指引-第十六章 糖尿病的其他共病症 (2024年5月更新版)
